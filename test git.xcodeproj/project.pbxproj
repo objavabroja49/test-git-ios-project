@@ -21,6 +21,7 @@
 		CECADFAA1927B05C00C7400C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECADF8C1927B05C00C7400C /* UIKit.framework */; };
 		CECADFB21927B05C00C7400C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECADFB01927B05C00C7400C /* InfoPlist.strings */; };
 		CECADFB41927B05C00C7400C /* test_gitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECADFB31927B05C00C7400C /* test_gitTests.m */; };
+		CECADFBF1927B88700C7400C /* MNTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CECADFBE1927B88700C7400C /* MNTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CECADFAF1927B05C00C7400C /* test gitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test gitTests-Info.plist"; sourceTree = "<group>"; };
 		CECADFB11927B05C00C7400C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CECADFB31927B05C00C7400C /* test_gitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_gitTests.m; sourceTree = "<group>"; };
+		CECADFBD1927B88700C7400C /* MNTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNTest.h; sourceTree = "<group>"; };
+		CECADFBE1927B88700C7400C /* MNTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				CECADF9E1927B05C00C7400C /* MNViewController.m */,
 				CECADFA01927B05C00C7400C /* Images.xcassets */,
 				CECADF8F1927B05C00C7400C /* Supporting Files */,
+				CECADFBD1927B88700C7400C /* MNTest.h */,
+				CECADFBE1927B88700C7400C /* MNTest.m */,
 			);
 			path = "test git";
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				CECADF951927B05C00C7400C /* main.m in Sources */,
 				CECADF9F1927B05C00C7400C /* MNViewController.m in Sources */,
+				CECADFBF1927B88700C7400C /* MNTest.m in Sources */,
 				CECADF991927B05C00C7400C /* MNAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
